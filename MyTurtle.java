@@ -2,8 +2,8 @@ public class MyTurtle extends BaseTurtle {
 
 	public void draw() {
                 
-		//pen.setColor(3, 0.2, 1); // the next side will be violet.
-		pen.setColor(0.5, 0.5, 1); // the next side will be blue.
+		//pen.setColor(3, 0.2, 1); // violeta
+		pen.setColor(0.5, 0.5, 1); // azul
                 pen.setStrokeWidth(8);
 		//desenha um S
 		pen.up();
@@ -113,7 +113,7 @@ public class MyTurtle extends BaseTurtle {
                  pen.down();
 
               //faz a lateral do cubo
-		 pen.setColor(0, 0.1, 0.3); // the next side will be 
+		 pen.setColor(0, 0.1, 0.3); //
 		 pen.setStrokeWidth(65);
 		 moveTo(3, -2);
 		 moveTo(3, -6);
@@ -161,6 +161,7 @@ public class MyTurtle extends BaseTurtle {
 		
 	}
 	
+	//Obs: essa funcao foi reutizada do exemplo da tartaruga disponibilizado
 	private void square(double size) {
 		for (int i = 0; i < 4; i++) {
 			this.forward(size);
